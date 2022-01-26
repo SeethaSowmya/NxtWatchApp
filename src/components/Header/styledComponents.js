@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import {Link} from 'react'
+import {Link} from 'react-router-dom'
 
 export const HeaderContainer = styled.nav`
   display: flex;
@@ -24,7 +24,7 @@ export const ListItems = styled.ul`
 export const LogoutButton = styled.button`
   border: 1px solid #3b82f6;
   color: #3b82f6;
-  background-color: white;
+  background-color: black;
   padding: 10px;
   @media screen and (min-width: 768px) {
     display: none;
@@ -120,6 +120,7 @@ export const NavLinkContent = styled.p`
   line-height: 1.2;
   margin: 0px;
   margin-left: 8px;
+  color: #000000;
   @media screen and (min-width: 768px) {
     font-size: 40px;
   }

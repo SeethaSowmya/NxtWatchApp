@@ -1,4 +1,5 @@
 import Popup from 'reactjs-popup'
+import {MdDarkMode} from 'react-icons/md'
 import './Header.css'
 
 import {
@@ -26,7 +27,9 @@ const Header = () => (
     </WebButton>
     <ListItems>
       <li>
-        <MoonButton>dark</MoonButton>
+        <MoonButton>
+          <MdDarkMode />
+        </MoonButton>
       </li>
       <li>
         <Profile
